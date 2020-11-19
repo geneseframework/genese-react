@@ -1,0 +1,28 @@
+{
+  "name": "@genese/react",
+  "version": "0.0.1",
+  "description": "Genese data-services for React applications",
+    "main": "dist/src/index.js",
+    "scripts": {
+    "build": "tsc",
+    "publish_package": "npm run build && npm publish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/geneseframework/genese-react.git"
+  },
+  "author": {
+    "name": "Gilles Fabre",
+    "url": "http://gillesfabre.com/"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/geneseframework/genese-react/issues"
+  },
+  "homepage": "https://github.com/geneseframework/genese-react#readme",
+  "dependencies": {
+    "@types/node": "^14.14.8",
+    "axios": "^0.21.0",
+    "genese-mapper": "^1.0.6"
+  }
+}
